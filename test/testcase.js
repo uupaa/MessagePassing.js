@@ -51,8 +51,8 @@ function testMessagePassing_basicUsage(test, pass, miss) {
     var a = new A();
     var b = B;
 
-    mp.register(a, "Hello").            // A is interrested in "hello"
-       register(b, ["Hello", "ping"]);  // B is interrested in "hello" and "ping"
+    mp.register(a, "Hello").            // A is interrested in "Hello"
+       register(b, ["Hello", "ping"]);  // B is interrested in "Hello" and "ping"
 
 
     // ## call A.inbox("Hello") and B.inbox("Hello")

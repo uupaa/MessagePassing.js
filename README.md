@@ -2,7 +2,7 @@
 
 [![npm](https://nodei.co/npm/uupaa.messagepassing.js.svg?downloads=true&stars=true)](https://nodei.co/npm/uupaa.messagepassing.js/)
 
-Message passing.
+Implementation of lightweight MessagePassing model.
 
 This module made of [WebModule](https://github.com/uupaa/WebModule).
 
@@ -42,8 +42,8 @@ This module made of [WebModule](https://github.com/uupaa/WebModule).
 
 
     // ## regsiter subscriber and register interrested selector
-    mp.register(a, "Hello").            // A is interrested in "hello"
-       register(b, ["Hello", "ping"]);  // B is interrested in "hello" and "ping"
+    mp.register(a, "Hello").            // A is interrested in "Hello"
+       register(b, ["Hello", "ping"]);  // B is interrested in "Hello" and "ping"
 
 
     // ## call A.inbox("Hello") and B.inbox("Hello")
